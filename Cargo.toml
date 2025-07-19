@@ -1,0 +1,7 @@
+[package]
+name = "ibxrust"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ibapi = "1.2.2"
