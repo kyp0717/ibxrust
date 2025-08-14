@@ -14,12 +14,10 @@ Build a terminal-based trading application that connects to Interactive Brokers 
 
 ### Phase 1: Foundation & Setup (Week 1)
 **Goal**: Establish a stable, production-ready connection to TWS with proper error handling
-
 - Set up proper project structure with modular architecture
-- Fix existing compilation errors in trade.rs and main.rs
 
 ### Phase 2: Establish Connection (Week 1)
-- Implement robust TWS connection with retry logic
+- Implement TWS connection 
 - Create connection manager module
 
 ### Phase x: Establish Connection (Week 1)

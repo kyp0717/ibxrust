@@ -43,6 +43,12 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 2. **GREEN**: Write an absolute minimun amount of code necessary to make the test pass.
 3. **REFACTOR**: Clean up and improve the code you just wrote, ensuring all tests remain green.  Never skip or reorder this cycle.
 
+### Principle 3: Todos
+- Keep your todos list short (less than 4 todos) during implementation, modifications, or updates. 
+- Track the todos in the tasks.md file.
+- If your todos list is longer than 4 items, break them into several parts under each phase.
+- Stop implementation after each part so that developer can review.
+
 ### Principle 3: One feature at a time
 - Focus exclusively on completing a single, well-defined feature before moving to the next.
 * Definition of Done: A task or feature is completed is defined by the following:
