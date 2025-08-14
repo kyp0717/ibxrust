@@ -12,19 +12,23 @@ Build a terminal-based trading application that connects to Interactive Brokers 
 
 ## Development Phases
 
-### Phase 1: Foundation & Connection (Week 1)
+### Phase 1: Foundation & Setup (Week 1)
 **Goal**: Establish a stable, production-ready connection to TWS with proper error handling
 
 - Set up proper project structure with modular architecture
 - Fix existing compilation errors in trade.rs and main.rs
+
+### Phase 2: Establish Connection (Week 1)
 - Implement robust TWS connection with retry logic
 - Create connection manager module
+
+### Phase x: Establish Connection (Week 1)
 - Add configuration management using environment variables
 - Implement comprehensive logging system (log4rs or tracing)
 - Create error handling framework
 - Set up development environment documentation
 
-### Phase 2: Core Trading Functionality (Week 2)
+### Phase x: Core Trading Functionality (Week 2)
 **Goal**: Implement all core trading operations with TWS
 
 - Implement ticker symbol input and validation
@@ -36,7 +40,7 @@ Build a terminal-based trading application that connects to Interactive Brokers 
 - Implement order status tracking
 - Add trade execution confirmation system
 
-### Phase 3: Terminal UI Implementation (Week 3)
+### Phase x: Terminal UI Implementation (Week 3)
 **Goal**: Create an intuitive, real-time terminal interface
 
 - Implement terminal clearing and refresh system
@@ -54,7 +58,7 @@ Build a terminal-based trading application that connects to Interactive Brokers 
 - Add keyboard interrupt handling for clean exit
 - Create status messages and notifications
 
-### Phase 4: Testing & Error Handling (Week 4)
+### Phase x: Testing & Error Handling (Week 4)
 **Goal**: Ensure reliability and safety of trading operations
 
 - Create comprehensive unit tests for each module
@@ -70,7 +74,7 @@ Build a terminal-based trading application that connects to Interactive Brokers 
 - Validate P&L calculations accuracy
 - Add transaction logging and audit trail
 
-### Phase 5: Enhancement & Documentation (Week 5)
+### Phase x: Enhancement & Documentation (Week 5)
 **Goal**: Polish the application for production use
 
 - Add command-line argument parsing (clap)
