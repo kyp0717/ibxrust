@@ -3,9 +3,8 @@
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.  It contains rules for Rust development and deployment 
 
 ## Project Awareness & Context
-- Project contexts are located in `prps/` folder and `logs/context/` folder
+- Project contexts are located in `prps/` folder.
 - At the start of a new conversation, read`/prps/projectgoal.md`to review project's architecture, style, and constraints.
-- At the start of a new conversation, review sessions contextlog files in `logs/context/` to understand project status and issues.
 - Examples are provided in the `examples/` folder.  These examples may be useful to better understand what I am trying to build
 
 ## Project Plan
@@ -13,6 +12,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - If project plan exist, use this a roadmap for development and tracking progress.
 - Update and modify project plan as needed.
 - Show the update and ask for confirmation of the project plan before editing this file.
+
+## Version Control
+- Follow version control workflow as outline in the file `prps/verson_control.md` file.
 
 ## Tasks 
 - Use the `tasks.md` file in the `prps/` to track the status of all the tasks that need to be done
@@ -22,14 +24,6 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - Do not work on tasks in the tasks.md that have already been completed.  Do not repeat these tasks.
 - **Mark completed tasks in `tasks.md`** immediately after finishing them.
 - Add new sub-tasks or TODOs discovered during development to `tasks.md` under a “Discovered During Work” section.
-
-## Logs
-- Project logs can be found in the `logs/context/` folder
-- Help me understand what each claude session has done by logging a summary to a file.
-- Save the log file in `logs/context`
-- Name the file with this format YYYYMMDD_HHMM_log.md format.
-- Add date and time as part of the content inside the log.
-- Summarize each session with heading and bullet points.  Be concise as possible.
 
 ## Ssub agents support
 - Use software architect agent will build the define features, create tasks and track project progress
